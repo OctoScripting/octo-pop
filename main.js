@@ -576,7 +576,7 @@ function render() {
     Total Characters: ${totalCharacters.toLocaleString()} - not meant to be representative of total population.<br/>
     Last Scanned: ${latestScanDate ? latestScanDate.toLocaleDateString() : 'N/A'}
     <br/>
-    <span class="data-note">All date filters have been removed.  This is a summary of all characters I have ever scanned.</span>
+    <span class="data-note">Active characters in the last 90 days.</span>
   `;
 
   if (hasData) {
