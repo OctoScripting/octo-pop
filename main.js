@@ -9,7 +9,7 @@ const CLASSES = [
   'Rogue', 'Warlock', 'Warrior', 'Shaman'
 ];
 const LEVELS = Array.from({length: 60}, (_, i) => i + 1);
-const SERVERS = ['Nordanaar', 'Ambershire', "Tel'Abim", 'South Seas'];
+const SERVERS = ['N\'Zoth', 'C\'Thun'];
 const PLACEHOLDER_ICON = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><rect width="32" height="32" fill="gray"/></svg>';
 
 const ALLIANCE_RACES = ['Dwarf', 'Gnome', 'High Elf', 'Human', 'Night Elf'];
